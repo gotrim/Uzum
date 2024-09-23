@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="direita">
+    <main>
+      <div id="divcao">
+        
+        <section id="home">
+          <header>
+              <div class="title">
+                  <img src="Uzum.png" alt="Uzum">
+              </div>
+              <div class="auth-links">
+                  <div class="login">
+                      <a href="#">Login</a>
+                  </div>
+                  <div class="cadastro">
+                      <a href="#">Cadastro</a>
+                  </div>
+              </div>
+          </header>
+            <div id="img_topo">
+                  </div>
+                  <div id="topo">
+                    <iron-selector selected="0" class="carousel" role="navigation">
+                      <a href="#" class="drag-item">Opção1</a>
+                      <a href="#" class="drag-item">Opção2</a>
+                      <a href="#" class="drag-item">Opção3</a>
+                      <a href="#" class="drag-item">Opção4</a>
+                    </iron-selector>
+                  </div>
+
+                  <ul class="container">
+
+                      <a class="postagem" href="#">
+                        <div class="imagem">
+                          <img src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Imagem 1">  
+                        </div>
+                        <div class="info_post">
+                          <h6>Nome de quem publicou</h6>
+                          <h6>Título da Postagem</h6>
+                          <p>Descrição da postagem Descrição da postagem</p>
+                        </div>
+                      </a>
+                  </ul>
+        </section>
+       </main>
+</div>
+  <div id="esquerda">
+
+  <button id="menu-hamburguer" class="menu" onclick="barra()">
+     <span class="hamburguer"></span>
+   </button>
+
+  <div id="conteudo-barra">
+
+  <div class="avatar">
+    <img src="avatar.png">
+  </div>
+  <li><a class="cadastro" href="cadastro.html"> cadastro</a> </li>
+  <li><a class="login" href="login.html"> Login </a></li>
+
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
