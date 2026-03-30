@@ -1,0 +1,23 @@
+{
+  "name": "uzum",
+  "version": "1.0.0",
+  "description": "Este projeto foi criado para uso pessoal como um **reservatório de vídeos** de projetos que já fiz e que ainda estou desenvolvendo.   Aqui você encontrará registros visuais do meu trabalho, permitindo acompanhar a evolução dos meus projetos e servir como portfólio pessoal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotrim/Uzum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gotrim/Uzum/issues"
+  },
+  "homepage": "https://github.com/gotrim/Uzum#readme",
+  "devDependencies": {
+    "mongodb": "^7.1.1"
+  }
+}
